@@ -1,0 +1,17 @@
+body {
+	background-color: black;
+	margin: 20ex;
+	padding: 0;
+}
+.table {
+	margin: 0 auto;
+	width: 30ex;
+}
+.pulse_list {
+	list-style-type: none;
+}
+.pulse_list li {
+	text-decoration: none;
+	color: white;
+	font-family: Arial, Geneva, Georgia;
+}

@@ -1,0 +1,31 @@
+<html>
+<head><title>Scriptaculous Pulse List Demo</title>
+<link rel="stylesheet" type="text/css" href="pulse_list.css" />
+<script src='js/prototype.js'></script>
+<script src='js/effects.js'></script>
+<script src='pulse_list.js'></script>
+<script type="text/javascript">
+	// <![CDATA[
+	Event.observe(window, 'load', function() {
+		new Effect.PulseList('pulse_list', { bounce: true, continuous: true });
+	});
+	// ]]>
+</script>
+</head>
+<body>
+<div class='table'>
+	<ul id='pulse_list' class='pulse_list'>
+		<li>Apple</li>
+		<li>Apricot</li>
+		<li>Banana</li>
+		<li>Cherry</li>
+		<li>Grape</li>
+		<li>Orange</li>
+		<li>Peach</li>
+		<li>Pear</li>
+		<li>Strawberry</li>
+		<li>Watermelon</li>
+	</ul>
+</div> 
+</body>
+</html>

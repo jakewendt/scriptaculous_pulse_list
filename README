@@ -1,0 +1,36 @@
+Scriptaculous Effect: Pulse List
+by Jake Wendt, 2007
+
+
+
+
+
+Options
+=======
+
+direction: (default: "down")
+	"up"   :
+	"down" :
+
+pulses: (default: 1)
+
+continuous: (default: false)
+	true  :
+	false :
+
+bounce: (default: false)
+	true  :
+	false :
+
+min_opacity: (default: 0.1)
+
+
+
+Example
+=======
+
+new Effect.PulseList('pulse_list', { 
+	bounce: true, 
+	continuous: true 
+});
+
